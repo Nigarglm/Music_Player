@@ -11,78 +11,40 @@ a{
 }
 
 body{
-    background-color: #0E183E;
+    background-color: #fff;
     height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
-.container{
-    background-color: #fff;
-    border: none;
-    border-radius: 20px;
-    width: 400px;
-    height: 300px;
-    color: #0E183E;
-    font-family: 'Poppins',sans-serif;
+header{
+    width: 1280px;
+    height: 100px;
+    border: 1px solid #D1D5DB;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div1{
+    margin-left: 40px;
+    margin-top: 18px;
+}
+
+.div2{
+    margin-top: 34px;
+    margin-right: 40px;
+}
+
+.img{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: url(https://s3-alpha-sig.figma.com/img/66cf/4c07/375b576e52134dc532f42541ecbeab1a?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=XWnQ37hrwip6wlAMNjbhNdr1itQolslHJ~SkYrtgyzliYNrL8rNg8gDKLhpcWDtYTIZ7yA0~OwzLV31PLv~dLJ9f3h6uRrVpIKvXwGdyi1Eef0BmWCoXPDriJI1HYP6JclYYOeiNLys~VSfI51B44opdMRhiDRtupSypd79ZQalwOTwk-A-79Cd1eg9kW-c6xeKiX4vLnwxi2hatrQZgCvzEgYfTVzwydwZnWAR2lfS9IsfqRWjFVT50alXlTorv1~z10M8RvHz7YHKvQJKjmMKV0QlH1G9dWPckjIxy4dLXfRdOvS0Rm5ki7f3e9uYtQpMPvzntncyg4WaLiBzDsQ__);
+    background-size: cover;
 }
 
 h2{
-    font-size: 20px;
-    font-weight: 500;
-    margin-top: 20px;
-    margin-left: 17px;
-}
-
-p{
-    font-size: 14px;
-    font-weight: 400;
-    margin-top: 25px;
-    margin-left: 17px;
-}
-
-.prog{
-    display: flex;
-    gap: 10px;
-}
-
-.progress{
-    width: 300px;
-    height: 15px;
-    background-color: #C3CDE9;
-    border: 1px solid #E8EBF4;
-    border-radius: 20px;
-    margin-top: 6px;
-    margin-left: 17px;
-    position: relative;
-}
-
-.progress::before{
-    content: "";
-    position: absolute;
-    display: block;
-    height: 100%;
-    width: 100%;
-    border-radius: 20px;
-}
-
-#first_progress::before{
-    background-color: #FC9860;
-    width: 52%;
-}
-
-#second_progress::before{
-    background-color: #608CFC;
-    width: 76%;
-}
-
-#third_progress::before{
-    background-color: #FC6086;
-    width: 21%;
-}
-
-span{
-    font-size: 14px;
-    font-weight: 500;
+    font-family: 'Poppins',sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #111827;
 }
